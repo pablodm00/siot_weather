@@ -7,3 +7,6 @@ How to run:
 - connect esp32 to pc via microUSB port
 - run python files, simoultaneously
 - when data collection is finished, run <>.ipynb
+ 
+
+if you only want to check the code in <>.ipynb: skip the first 5 cells, uncomment the first line in cell 6 and run from there. 
