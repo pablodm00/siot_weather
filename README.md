@@ -6,7 +6,7 @@ How to run:
 - run arduino code for a week, <>.ino
 - connect esp32 to pc via microUSB port
 - run python files, simoultaneously
-- when data collection is finished, run <>.ipynb
+- when data collection is finished, run <>.ipynb (note: plotly plots do not show in the built-in jupyter notebook reader, if you would like to see them open in visual studio code or similar)
  
 
 if you only want to check the code in <>.ipynb: skip the first 5 cells, uncomment the first line in cell 6 and run from there. 
