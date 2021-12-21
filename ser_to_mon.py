@@ -5,7 +5,7 @@ from time import sleep
 import schedule
 
 # set up connection with mongodb
-client = MongoClient('mongodb+srv://pablodm:evaLARAmon1!@cluster0.qzcor.mongodb.net')
+client = MongoClient('mongodb+srv://pablodm:<password>@cluster0.qzcor.mongodb.net') # password censored
 db=client.siot_weather
 col = db["esp_data"]
 

@@ -6,12 +6,12 @@ from datetime import datetime
 from pymongo import MongoClient
 
 # mongodb setup
-client = MongoClient('mongodb+srv://pablodm:evaLARAmon1!@cluster0.qzcor.mongodb.net')
+client = MongoClient('mongodb+srv://pablodm:<password>@cluster0.qzcor.mongodb.net') # password censored
 db=client.siot_weather
 col = db["owm_data"]
 
 # api setup
-api_key = "ef399883830e2112b32db2de8f084e42"
+api_key = "<api key>" # api key censored
 lat = "51.49172012646749"
 lon = "-0.1953124719660753"
 url = "https://api.openweathermap.org/data/2.5/onecall?lat=%s&lon=%s&appid=%s&units=metric" % (lat, lon, api_key)
