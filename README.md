@@ -9,6 +9,6 @@ How to run:
 - when data collection is finished, run analysis.ipynb (note: plotly plots do not show in the built-in jupyter notebook reader, if you would like to see them open in visual studio code or similar)
  
 
-if you only want to check the code in <>.ipynb: skip the first 5 cells, uncomment the first line in cell 6 and run from there. 
+if you only want to check the code in analysis.ipynb: skip the first 5 cells, uncomment the first line in cell 6 and run from there. 
 
 note: wifi passwords, api keys and other sensible data has been censored as the repository is publicly available
